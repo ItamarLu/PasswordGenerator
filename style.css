@@ -3,6 +3,7 @@ body {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
+  text-shadow: 0px 0px 5px black;
 }
 
 #content {
@@ -25,18 +26,31 @@ body {
   border: none;
   border-radius: 5px;
   color: #ffffff;
+  text-shadow: 0px 0px 5px black;
 }
 #generate-btn:hover{
   background: #127252;
 }
 
 .passwordsBox{
-  width: 300px;
-  height: 40px;
-  margin: 20px auto;
+  width: 380px;
+  height: 30px;
+  padding: 10px 20px;
   background: #273549;
   border-radius: 5px;
   color: #55F991;
+  border: 1px solid #296840;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.Pass-box{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  margin: 30px auto;
 }
 
 #pass-size{
@@ -45,15 +59,52 @@ body {
   justify-content: center;
   margin: 20px;
 }
-#pass-text{
+.pass-text{
   font-size: 25px;
+  margin: 10px 0;
 }
 #pass-input{
-  width: 40px;
+  width: 20px;
   height: 25px;
   margin: 0 15px;
   border-radius: 5px;
   padding: 0 5px;
-  border: none;
+  border: 1px solid #296840;
+  text-align: center;
+  background: #273549;
+  color: #55F991;
+  text-shadow: 0px 0px 5px black;
 }
 
+.copy-btn{
+  color: #55F991;
+}
+.copy-btn:hover{
+  color: #127252;
+}
+
+#Check-boxes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkBtn{
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: none;
+  background: #10B981;
+  color: #273549;
+  font-size: 25px;
+  font-weight: 600;
+}
+.checkBtn:hover{
+  background: #127252;
+}
+
+.numSym{
+  display: flex;
+  align-items: center;
+}

@@ -10,15 +10,35 @@
 <body>
   <div id="content">
     <h1>Generate a <div id="rdmPass">random password</div></h1>
+    <div id="Check-boxes">
+      <div class="numSym">
+        <p class="pass-text">Numbers: </p>
+        <button class="checkBtn" id="number-text" onclick="numberBtn()"></button>
+      </div>
+      <div class="numSym">
+        <p class="pass-text">Symbols: </p>
+        <button class="checkBtn" id="symbol-text" onclick="symbolBtn()"></button>
+      </div>
+    </div>
     <div id="pass-size">
-      <p id="pass-text">Password Size:</p>
-      <input id="pass-input" type="number">
+      <p class="pass-text">Password Size:</p>
+      <input id="pass-input" type="text">
     </div>
     <button id="generate-btn" onclick="GeneratePasswords()">Generate passwords</button>
     <p id="line"></p>
-    <p class="passwordsBox" id="password-one"></p>
-    <p class="passwordsBox" id="password-two"></p>
+  </div>
+  <div>
+    <div class="Pass-box">
+      <textarea class="passwordsBox" id="password-one"></textarea>
+      <ion-icon class="copy-btn" name="copy-outline" onclick="copyPasswordOne()" id="copy-passOne"></ion-icon>
+    </div>
+    <div class="Pass-box">
+      <textarea class="passwordsBox" id="password-two"></textarea>
+      <ion-icon class="copy-btn" name="copy-outline" id="copy-passTwo" onclick="copyPasswordTwo()"></ion-icon>
+    </div>
   </div>
   <script src="index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
