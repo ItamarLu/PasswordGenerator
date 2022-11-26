@@ -1,0 +1,59 @@
+body {
+  background: #1F2937 ;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+#content {
+  width: 470px;
+  margin: 0 auto;
+}
+
+#rdmPass {
+  color: #4ADF86;
+}
+
+#line{
+  border-bottom: 2px solid #2F3E53;
+}
+
+#generate-btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  background: #10B981;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+#generate-btn:hover{
+  background: #127252;
+}
+
+.passwordsBox{
+  width: 300px;
+  height: 40px;
+  margin: 20px auto;
+  background: #273549;
+  border-radius: 5px;
+  color: #55F991;
+}
+
+#pass-size{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+#pass-text{
+  font-size: 25px;
+}
+#pass-input{
+  width: 40px;
+  height: 25px;
+  margin: 0 15px;
+  border-radius: 5px;
+  padding: 0 5px;
+  border: none;
+}
+

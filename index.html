@@ -8,7 +8,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div id="content">
+    <h1>Generate a <div id="rdmPass">random password</div></h1>
+    <div id="pass-size">
+      <p id="pass-text">Password Size:</p>
+      <input id="pass-input" type="number">
+    </div>
+    <button id="generate-btn" onclick="GeneratePasswords()">Generate passwords</button>
+    <p id="line"></p>
+    <p class="passwordsBox" id="password-one"></p>
+    <p class="passwordsBox" id="password-two"></p>
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
